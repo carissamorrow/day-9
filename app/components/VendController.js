@@ -4,7 +4,11 @@ import VendService from "./VendService";
 let vendService = new VendService()
 
 function drawTotal(value) {
+  document.getElementById('change').innerText = value
+}
 
+function drawItems() {
+  let items = vendService.getItems()
 }
 
 //public

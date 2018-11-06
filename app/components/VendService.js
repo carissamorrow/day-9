@@ -24,6 +24,8 @@ export default class VendService {
 
   }
   giveChange() {
+  }
+  getItems() {
 
   }
 }
